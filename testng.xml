@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Suite">
+ <listeners>
+ <listener class-name= "Listeners.Listeners"/>
+ </listeners>
+	<!-- ANNOTATION CONCEPT -->
+  <test  name="annotation_1">
+    <classes> 
+    	<class name="annotations.part_1"/>
+    </classes>
+  </test>
+    
+  <test  name="annotation_2">
+    <classes>
+     	<class name="annotations.part_2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <!-- GROUPING CONCEPT -->
+  <test name="Framework_lessons">
+  	<classes>
+  		<class name="Framework_lessons.Groups"/>
+  			<groups>
+  				<run>
+  					<include name="Smoke"/>
+  				</run>
+  			</groups>
+  	</classes>
+  </test> 
+  
+  <!-- HELPER ATTRIBUTES -->
+  <test name= "Helper_attributes">
+  	<classes>
+  		<class name= "annotation_helper_attributes.helper_attributes"/>
+  		
+  	</classes>
+  </test>
+  
+  <!-- PARAMETERIZATION -->
+  <test name = "parameterization">
+  	<parameter name="URL"  value="www.skudigital.com"/>
+  	<parameter name="Username" value="abc"/>
+  	<parameter name="Password" value="123"/>
+  	<classes>
+  		<class name= "parameterization_in_XML.parameterization"/>
+  	</classes>
+  </test>
+</suite> <!-- Suite -->

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="15" passed="11" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-03T11:17:37 IST" name="Suite" finished-at="2024-09-03T11:17:37 IST" duration-ms="907">
+    <groups>
+      <group name="Smoke">
+        <method signature="Groups.smoke_test1()[pri:0, instance:Framework_lessons.Groups@17497425]" name="smoke_test1" class="Framework_lessons.Groups"/>
+        <method signature="Groups.smoke_test2()[pri:0, instance:Framework_lessons.Groups@17497425]" name="smoke_test2" class="Framework_lessons.Groups"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2024-09-03T11:17:37 IST" name="annotation_1" finished-at="2024-09-03T11:17:37 IST" duration-ms="180">
+      <class name="annotations.part_1">
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:annotations.part_1@78123e82]" started-at="2024-09-03T11:17:37 IST" name="beforetest" finished-at="2024-09-03T11:17:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method signature="test()[pri:0, instance:annotations.part_1@78123e82]" started-at="2024-09-03T11:17:37 IST" name="test" finished-at="2024-09-03T11:17:37 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method signature="test1()[pri:0, instance:annotations.part_1@78123e82]" started-at="2024-09-03T11:17:37 IST" name="test1" finished-at="2024-09-03T11:17:37 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:annotations.part_1@78123e82]" started-at="2024-09-03T11:17:37 IST" name="test2" finished-at="2024-09-03T11:17:37 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:annotations.part_1@78123e82]" started-at="2024-09-03T11:17:37 IST" name="aftertest" finished-at="2024-09-03T11:17:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- annotations.part_1 -->
+    </test> <!-- annotation_1 -->
+    <test started-at="2024-09-03T11:17:37 IST" name="annotation_2" finished-at="2024-09-03T11:17:37 IST" duration-ms="116">
+      <class name="annotations.part_2">
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="beforeclass" finished-at="2024-09-03T11:17:37 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="beforemethod" finished-at="2024-09-03T11:17:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TestExample()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="TestExample" finished-at="2024-09-03T11:17:37 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExample -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="aftermethod" finished-at="2024-09-03T11:17:37 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="beforemethod" finished-at="2024-09-03T11:17:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="TestExample2()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="TestExample2" finished-at="2024-09-03T11:17:37 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestExample2 -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="aftermethod" finished-at="2024-09-03T11:17:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="afterclass" finished-at="2024-09-03T11:17:37 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+      </class> <!-- annotations.part_2 -->
+    </test> <!-- annotation_2 -->
+    <test started-at="2024-09-03T11:17:37 IST" name="Framework_lessons" finished-at="2024-09-03T11:17:37 IST" duration-ms="62">
+      <class name="Framework_lessons.Groups">
+        <test-method signature="smoke_test1()[pri:0, instance:Framework_lessons.Groups@17497425]" started-at="2024-09-03T11:17:37 IST" name="smoke_test1" finished-at="2024-09-03T11:17:37 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke_test1 -->
+        <test-method signature="smoke_test2()[pri:0, instance:Framework_lessons.Groups@17497425]" started-at="2024-09-03T11:17:37 IST" name="smoke_test2" finished-at="2024-09-03T11:17:37 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- smoke_test2 -->
+      </class> <!-- Framework_lessons.Groups -->
+    </test> <!-- Framework_lessons -->
+    <test started-at="2024-09-03T11:17:37 IST" name="Helper_attributes" finished-at="2024-09-03T11:17:37 IST" duration-ms="108">
+      <class name="annotation_helper_attributes.helper_attributes">
+        <test-method signature="attribute_4()[pri:0, instance:annotation_helper_attributes.helper_attributes@1e1a0406]" started-at="2024-09-03T11:17:37 IST" name="attribute_4" finished-at="2024-09-03T11:17:37 IST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- attribute_4 -->
+        <test-method signature="helper_attribute_2()[pri:0, instance:annotation_helper_attributes.helper_attributes@1e1a0406]" started-at="2024-09-03T11:17:37 IST" name="helper_attribute_2" finished-at="2024-09-03T11:17:37 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helper_attribute_2 -->
+        <test-method signature="helper_attribute_1()[pri:0, instance:annotation_helper_attributes.helper_attributes@1e1a0406]" started-at="2024-09-03T11:17:37 IST" name="helper_attribute_1" finished-at="2024-09-03T11:17:37 IST" depends-on-methods="annotation_helper_attributes.helper_attributes.helper_attribute_2" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- helper_attribute_1 -->
+      </class> <!-- annotation_helper_attributes.helper_attributes -->
+    </test> <!-- Helper_attributes -->
+    <test started-at="2024-09-03T11:17:37 IST" name="parameterization" finished-at="2024-09-03T11:17:37 IST" duration-ms="20">
+      <class name="annotations.part_2">
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:annotations.part_2@54bff557]" started-at="2024-09-03T11:17:37 IST" name="aftersuite" finished-at="2024-09-03T11:17:37 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- annotations.part_2 -->
+      <class name="parameterization_in_XML.parameterization">
+        <test-method signature="Parameterization(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:parameterization_in_XML.parameterization@4310d43]" started-at="2024-09-03T11:17:37 IST" name="Parameterization" finished-at="2024-09-03T11:17:37 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[www.skudigital.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[abc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Parameterization -->
+      </class> <!-- parameterization_in_XML.parameterization -->
+      <class name="annotations.part_1">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:annotations.part_1@78123e82]" started-at="2024-09-03T11:17:36 IST" name="beforesuite" finished-at="2024-09-03T11:17:37 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+      </class> <!-- annotations.part_1 -->
+    </test> <!-- parameterization -->
+  </suite> <!-- Suite -->
+</testng-results>
